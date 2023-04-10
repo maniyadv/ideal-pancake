@@ -1,5 +1,5 @@
 {
-  "name": "Openai client",
+  "name": "openai-client",
   "version": "0.0.0-development",
   "description": "A JS client for OpenAI's API that can be used in browsers and Node.js",
   "main": "./lib/index.js",
