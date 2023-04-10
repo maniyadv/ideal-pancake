@@ -1,8 +1,7 @@
 # typescript-npm-package-template
 
-> Template to kickstart creating a Node.js module using TypeScript and VSCode
+> OpenAI's API client for browser and node 
 
-Inspired by [node-module-boilerplate](https://github.com/sindresorhus/node-module-boilerplate)
 
 ## Features
 

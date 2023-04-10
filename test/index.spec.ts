@@ -1,13 +1,13 @@
-import { myPackage } from '../src';
+import Edit from '../src/core/Edit';
 
 describe('index', () => {
-  describe('myPackage', () => {
-    it('should return a string containing the message', () => {
-      const message = 'Hello';
+    describe('myPackage', () => {
+        it('should return a string containing the message', () => {
+            const message = 'Hello';
 
-      const result = myPackage(message);
+            const edit = new Edit(message);
 
-      expect(result).toMatch(message);
+            expect(edit.getMessage()).toMatch(message);
+        });
     });
-  });
 });

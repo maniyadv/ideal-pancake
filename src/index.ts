@@ -1,1 +1,5 @@
-export const myPackage = (taco = ''): string => `${taco} from my package`;
+import Edit from './core/Edit';
+
+export const OpenAi = {
+    edit: () => new Edit(),
+};
