@@ -38,9 +38,5 @@ npm install openai-clinet-js
   client.createEdit(options);
 ```
 
-# Links
-
-[![npm package][npm-img]][https://www.npmjs.com/package/openai-client-js]
-
 
 **_NOTE_** - Actively being developed. Please report for any issues. 
